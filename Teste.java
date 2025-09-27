@@ -1,20 +1,22 @@
 
-void main() { 
-	
-	var nomeItem1 = "Refresco do Chaves";
-	var descricaoItem1 = "Suco de limão que parece de tamarindo e tem gosto de groselha.";
-	var emPromocaoItem1 = false;
-	var precoItem1 = 2.99;
-	var idItem1 = 1L;
-	var categoriaItem1 = 4;
+void main() {
 
-	var nomeItem2 = "Sanduíche de Presunto do Chaves";
-	var descricaoItem2 = "Sanduíche de presunto simples, mas feito com muito amor.";
-	var emPromocaoItem2 = true;
-	var precoItem2 = 3.50;
-	var precoComDescontoItem2 = 2.99;
-	var idItem2 = 3_000_000_000L;
-	int categoriaItem2 = 2;
+	ItemCardapio item1 = new ItemCardapio();
+	item1.nome = "Refresco do Chaves";
+	item1.descricao =  "Suco de limão que parece de tamarindo e tem gosto de groselha.";
+	item1.emPromocao = false;
+	item1.preco = 2.99;
+	item1.id = 1L;
+	item1.categoria = 4;
+
+	var item2 = new ItemCardapio();
+	item2.nome = "Sanduíche de Presunto do Chaves";
+	item2.descricao = "Sanduíche de presunto simples, mas feito com muito amor.";
+	item2.emPromocao = true;
+	item2.preco = 3.50;
+	item2.precoComDesconto = 2.99;
+	item2.id = 3_000_000_000L;
+	item2.categoria = 2;
 
    /*
    categorias
@@ -25,27 +27,26 @@ void main() {
 	4 - Bebidas
    */
 
-   IO.println("Nome: " + nomeItem1);
+   IO.println("Nome: " + item2.nome);
 
-   if (emPromocaoItem1) {
-	// var porcentagemDesconto = (preco - precoComDesconto) / preco;
-	// IO.println("Porcentagem de desconto: " + porcentagemDesconto);
-
-	// IO.println("Preco: de " + preco + " por " + precoComDesconto);
+   if (item2.emPromocao) {
+	var porcentagemDesconto = (item2.preco - item2.precoComDesconto) / item2.preco;
+	IO.println("Porcentagem de desconto: " + porcentagemDesconto);
+	IO.println("Preco: de " + item2.preco + " por " + item2.precoComDesconto);
    } else {
-	IO.println("Preco: " + precoItem1);
+	IO.println("Preco: " + item2.preco);
 	IO.println("Item não está em promoção");
 
    }
 
 
-   if (categoriaItem1 == 1) {
+   if (item2.categoria == 1) {
 	IO.println("Categoria: Entradas");
-   } else if (categoriaItem1 == 2) {
+   } else if (item2.categoria == 2) {
 	IO.println("Categoria: Pratos Principais");
-   } else if (categoriaItem1 == 3) {
+   } else if (item2.categoria == 3) {
 	IO.println("Categoria: Sobremesas");
-   } else if (categoriaItem1 == 4) {
+   } else if (item2.categoria == 4) {
 	IO.println("Categoria: Bebidas");
    } else {
 	IO.println("Categoria não encontrada...");
@@ -53,7 +54,7 @@ void main() {
 
 IO.println("-------");
 
-	switch(categoriaItem1) {
+	switch(item2.categoria) {
 		case 1:
 				IO.println("Categoria: Entradas");
 		case 2:
@@ -153,5 +154,18 @@ IO.println("-------");
 		}
 		IO.println("Processamento pesado para: " + preco); // so queria processar para valores maiores que 10.0
 	}
+
+}
+
+class ItemCardapio {
+
+	// atributos
+	String nome;
+	String descricao;
+	boolean emPromocao;
+	double preco;
+	double precoComDesconto;
+	long id;
+	int categoria;
 
 }
