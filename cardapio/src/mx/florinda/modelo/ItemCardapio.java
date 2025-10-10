@@ -13,7 +13,7 @@ public class ItemCardapio {
     private double precoComDesconto;
 
     //construtor
-    protected ItemCardapio(long id, String nome, String descricao, double preco, CategoriaCardapio categoria) {
+    public ItemCardapio(long id, String nome, String descricao, double preco, CategoriaCardapio categoria) {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
