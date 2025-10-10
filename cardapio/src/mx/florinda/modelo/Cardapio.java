@@ -2,21 +2,14 @@ package mx.florinda.modelo;
 
 import mx.florinda.leitor.LeitorItensCardapio;
 
-import java.io.IOException;
-
 public class Cardapio {
 
     private final ItemCardapio[] itens;
 
-    public Cardapio(String nomeArquivo) throws IOException {
+    public Cardapio(String nomeArquivo) {
 
         LeitorItensCardapio leitor = LeitorItensCardapio.criaLeitor(nomeArquivo);
-        if (leitor != null) {
-            itens = leitor.processaArquivo();
-        } else {
-            IO.println("A extensão do arquivo é inválida: " + nomeArquivo);
-            itens = new ItemCardapio[0];
-        }
+        itens = leitor.processaArquivo();
 
     }
 
