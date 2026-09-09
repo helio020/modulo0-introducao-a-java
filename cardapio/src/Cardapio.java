@@ -3,14 +3,14 @@ class Cardapio {
     ItemCardapio[] itens;
 
     Cardapio() {
-        ItemCardapio item1 = new ItemCardapio(1L, "Refresco do Chaves",
+        ItemCardapio item1 = new ItemCardapioBebida(1L, "Refresco do Chaves",
                 "Suco de limão que parece de tamarindo e tem gosto de groselha.", 2.99, CategoriaCardapio.BEBIDAS);
 
-        ItemCardapio item2 = new ItemCardapio(2L, "Sanduíche de Presunto do Chaves",
+        ItemCardapio item2 = new ItemCardapioSemGluten(2L, "Sanduíche de Presunto do Chaves",
                 "Sanduíche de presunto simples, mas feito com muito amor.", 3.50, CategoriaCardapio.PRATOS_PRINCIPAIS);
         item2.definePromocao(2.99);
 
-        ItemCardapio item3 = new ItemCardapio(3L, "Torta de Frango da Dona Florinda",
+        ItemCardapio item3 = new ItemCardapioSemGluten(3L, "Torta de Frango da Dona Florinda",
                 "Torta de frango com recheio cremoso e massa crocante.", 12.99, CategoriaCardapio.PRATOS_PRINCIPAIS);
         item3.definePromocao(10.99);
 
@@ -18,8 +18,8 @@ class Cardapio {
                 "Balde de pipoca preparado com carinho pelo Quico.", 4.99, CategoriaCardapio.PRATOS_PRINCIPAIS);
         item4.definePromocao(3.99);
 
-        ItemCardapio item5 = new ItemCardapio(5L, "Água de Jamaica",
-                "Água aromatizada com hibisco e toque de açúcar.", 2.5, CategoriaCardapio.PRATOS_PRINCIPAIS);
+        ItemCardapio item5 = new ItemCardapioBebida(5L, "Água de Jamaica",
+                "Água aromatizada com hibisco e toque de açúcar.", 2.5, CategoriaCardapio.BEBIDAS);
         item5.definePromocao(2.0);
 
         ItemCardapio item6 = new ItemCardapioIsento(6L, "Churros do Chaves",

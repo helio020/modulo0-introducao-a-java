@@ -41,4 +41,5 @@ void main() {
         }
     }
 
+    if (itemSelecionado.) {}
 }
