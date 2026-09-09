@@ -41,5 +41,9 @@ void main() {
         }
     }
 
-    if (itemSelecionado.) {}
+    if (itemSelecionado instanceof ItemCardapioSemGluten itemSemGluten) {
+        if (itemSemGluten.ehSemGluten()) {
+            IO.println("Este item não contém glúten.");
+        }
+    }
 }
