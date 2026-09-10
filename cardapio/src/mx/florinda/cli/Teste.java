@@ -1,14 +1,16 @@
-import mx.florinda.modelo.Cardapio;
 import mx.florinda.modelo.ItemCardapio;
+import mx.florinda.modelo.Restaurante;
 
 void main() {
+    String nomeDoRestaurante = "Florinda Eats";
+    String enderecoDoRestaurante = "Rua Florinda";
 
-    Cardapio cardapio = new Cardapio();
+    Restaurante restaurante = new Restaurante(nomeDoRestaurante, enderecoDoRestaurante);
 
     String linha = IO.readln("Digite um id de um item de cardápio: ");
     long idSelecionado = Long.parseLong(linha);
 
-    ItemCardapio itemSelecionado = cardapio.getItemPorId(idSelecionado);
+    ItemCardapio itemSelecionado = restaurante.getCardapio().getItemPorId(idSelecionado);
 
     IO.println("== Item do Cardápio ==");
     IO.println("Id: " + itemSelecionado.getId());
@@ -28,19 +30,25 @@ void main() {
 
     IO.println("-------");
 
-    IO.println("Soma dos preços: " + cardapio.getSomaDosPrecos());
-    IO.println("Total de itens em promoção: " + cardapio.getTotalDeItensEmPromocao());
+    IO.println("Soma dos preços: " + restaurante.getCardapio().getSomaDosPrecos());
+    IO.println("Total de itens em promoção: " + restaurante.getCardapio().getTotalDeItensEmPromocao());
 
     double precoLimite = 10.0;
-    IO.println("O primeiro preço que é maior que " + precoLimite + ": " + cardapio.getPrimeiroPrecoMaiorQueLimite(precoLimite));
+    IO.println("O primeiro preço que é maior que " + precoLimite + ": " + restaurante.getCardapio().getPrimeiroPrecoMaiorQueLimite(precoLimite));
 
     IO.println("-------");
 
     // Imprimir todos os precos menores ou iguais ao limite
-    for (ItemCardapio item : cardapio.getItens()) {
+    for (ItemCardapio item : restaurante.getCardapio().getItens()) {
         if (item.getPreco() <= precoLimite) {
             IO.println("Preço menor que " + precoLimite + ": " + item.getPreco());
         }
     }
+
+    IO.println("-------");
+
+    IO.println("Restaurante");
+    IO.println("Nome: " + restaurante.getNome());
+    IO.println("Nome: " + restaurante.getEndereco());
 
 }

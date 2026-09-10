@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="661a62d7-9e96-4946-9292-b69632cbc3eb" name="Changes" comment="exercício prático aula 9">
+      <change beforePath="$PROJECT_DIR$/cardapio/src/mx/florinda/cli/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardapio/src/mx/florinda/cli/Teste.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="aula09-organizando-em-arquivos-e-heranca" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.6742288162421963E-7" />
+      <entry key="MS500" value="0.04586279078623343" />
+      <entry key="S2" value="0.8161441569054013" />
+      <entry key="S5" value="2.168059972686282" />
+      <entry key="S10" value="3.4279047805175833" />
+      <entry key="S30" value="4.918686037383573" />
+      <entry key="S60" value="5.458875007774535" />
+      <entry key="M2" value="6.17213398956594" />
+      <entry key="M5" value="8.315624639084673" />
+      <entry key="M10" value="10.29901741941504" />
+      <entry key="M15" value="11.283082029401479" />
+      <entry key="M30" value="12.898135671161905" />
+      <entry key="H1" value="18.385583352952672" />
+      <entry key="H2" value="34.17926365544677" />
+      <entry key="H4" value="63.201830317704534" />
+      <entry key="D1" value="145.08310695607764" />
+      <entry key="W1" value="173.550151822785" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000258" />
+      <entry key="S10" value="1.000000222602819" />
+      <entry key="S30" value="1.0099630894027232" />
+      <entry key="S60" value="1.171042679690225" />
+      <entry key="M2" value="1.8654125234571448" />
+      <entry key="M5" value="3.8575497006685975" />
+      <entry key="M10" value="5.631316856018378" />
+      <entry key="M15" value="6.5155500742583525" />
+      <entry key="M30" value="7.7919727943708805" />
+      <entry key="H1" value="10.605206502390683" />
+      <entry key="H2" value="17.962045097004896" />
+      <entry key="H4" value="30.251696420262316" />
+      <entry key="D1" value="60.41387457302185" />
+      <entry key="W1" value="70.16068970894956" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.166061801236812E-5" />
+      <entry key="MS500" value="0.15707505292248322" />
+      <entry key="S2" value="1.1228988987448039" />
+      <entry key="S5" value="2.6184888001192985" />
+      <entry key="S10" value="4.035308862149602" />
+      <entry key="S30" value="5.752118613841944" />
+      <entry key="S60" value="6.528196794686779" />
+      <entry key="M2" value="7.969060833361184" />
+      <entry key="M5" value="12.124955952630282" />
+      <entry key="M10" value="15.897160019612642" />
+      <entry key="M15" value="17.773581648144336" />
+      <entry key="M30" value="20.675352575126418" />
+      <entry key="H1" value="28.980146935511495" />
+      <entry key="H2" value="52.13112965787721" />
+      <entry key="H4" value="93.4437482620594" />
+      <entry key="D1" value="205.49313416126813" />
+      <entry key="W1" value="243.71018297870484" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3J1C99GNn0YxCl4E1q5g2zGpnv6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Teste.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "aula10-pacotes-modificadores-de-acesso-getter-e-setters",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/estudos-java/modulo0-introducao-a-java/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Teste" />
+      <module name="modulo0-introducao-a-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Teste" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="661a62d7-9e96-4946-9292-b69632cbc3eb" name="Changes" comment="" />
+      <created>1788819063158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788819063158</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercício prático aula 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercício prático aula 9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
